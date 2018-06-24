@@ -33,11 +33,16 @@ docker-compose up -d
 ### To access PHP MyAdmin
 ```
 http://localhost:8888
-```
 Username: root / Password: root
+```
+
+### Before start
+```
+Check volume path before run docker-compose
+Default page = http://localhost/public
+```
 
 ### To do after run docker-compose
-
 ```
 composer create-project --prefer-dist laravel/laravel laravel5 "5.4.30"
 cd laravel5
